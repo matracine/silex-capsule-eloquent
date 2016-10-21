@@ -1,5 +1,5 @@
 {
-  "name": "jguyomard/silex-capsule-eloquent",
+  "name": "matracine/silex-capsule-eloquent",
   "description": "Capsule/Eloquent Service Provider for Silex 2",
   "keywords": [
     "Capsule",
@@ -12,7 +12,10 @@
   "authors": [
     {
       "name": "Julien Guyomard"
-    }
+    },
+	 {
+	 	"name": "Matthieu Racine"
+	 }
   ],
   "require": {
     "php": ">=5.5.9",
@@ -24,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "JG\\Silex\\Provider\\": "src/Silex/Provider"
+      "MatRacine\\Silex\\Provider\\": "src/Silex/Provider"
     }
   },
   "extra": {

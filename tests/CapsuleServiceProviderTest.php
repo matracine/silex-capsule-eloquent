@@ -16,7 +16,7 @@ class CapsuleServiceProviderTest extends PHPUnit_Framework_TestCase
         // Register Capsule Service Provider
         $this->app = new \Silex\Application();
         $this->app->register(
-            new \JG\Silex\Provider\CapsuleServiceProvider(), [
+            new \MatRacine\Silex\Provider\CapsuleServiceProvider(), [
                 'capsule.connections' => [
                     'default' => [
                         'driver' => 'sqlite',
