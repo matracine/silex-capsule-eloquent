@@ -1,6 +1,6 @@
 <?php
 
-namespace JG\Silex\Provider;
+namespace MatRacine\Silex\Provider;
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\Database\Capsule\Manager as Capsule;
